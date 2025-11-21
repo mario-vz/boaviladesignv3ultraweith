@@ -135,20 +135,28 @@ function App() {
       </header>
 
       <main className="pt-20">
-        <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-gray-50 to-white">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
-            <div className="space-y-6">
-              <h1 className="text-6xl md:text-7xl font-light text-gray-900 leading-tight tracking-tight">
-                Artesanía Gallega
-              </h1>
-              <p className="text-xl text-gray-600 font-light leading-relaxed">
-                Piezas únicas diseñadas y elaboradas a mano en Galicia. Cada accesorio cuenta una historia de dedicación y precisión.
-              </p>
-            </div>
+        <section
+          className="h-[90vh] w-full bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: "url('https://i.imgur.com/TU_IMAGEN.jpg')",
+          }}
+        >
+          {/* capa oscura para mejorar contraste */}
+          <div className="absolute inset-0 bg-black/40"></div>
+
+          {/* contenido centrado */}
+          <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
+            <h1 className="text-6xl md:text-7xl font-light text-white leading-tight tracking-tight">
+              Artesanía Gallega
+            </h1>
+
+            <p className="text-xl text-gray-200 font-light leading-relaxed max-w-3xl mt-6">
+              Piezas únicas diseñadas y elaboradas a mano en Galicia. Cada accesorio cuenta una historia de dedicación y precisión.
+            </p>
 
             <button
               onClick={() => scrollToSection('coleccion')}
-              className="inline-flex items-center gap-3 px-8 py-4 border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 font-light tracking-wide text-sm"
+              className="mt-10 inline-flex items-center gap-3 px-8 py-4 border border-white text-white hover:bg-white hover:text-gray-900 transition-all duration-300 font-light tracking-wide text-sm"
             >
               Descubre la colección
               <ChevronDown size={18} className="rotate-90" />
