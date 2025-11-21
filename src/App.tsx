@@ -231,7 +231,7 @@ function App() {
                 <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
                     <img
-                      src="https://imgur.com/9iBaAZi"
+                      src="https://i.imgur.com/9iBaAZi.png"
                       alt="Fotografía artesana"
                       className="w-full h-full object-cover"
                     />
