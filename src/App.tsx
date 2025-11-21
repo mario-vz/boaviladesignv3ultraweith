@@ -231,7 +231,7 @@ function App() {
                 <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
                     <img
-                      src="https://media.discordapp.net/attachments/1440135468472602654/1440411960742248529/image.png?ex=69215b6d&is=692009ed&hm=5c78f18ec5ef32723f5608a29918ad3d0c10bccf3fc12e99d8e7baf06b67fe3b&=&format=webp&quality=lossless"
+                      src="https://imgur.com/9iBaAZi"
                       alt="Fotografía artesana"
                       className="w-full h-full object-cover"
                     />
