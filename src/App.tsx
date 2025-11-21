@@ -75,7 +75,7 @@ function App() {
       <header className="fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="text-xl font-light tracking-widest text-gray-900 uppercase">
-            Boa Vila
+            Boa Vila Design
           </div>
 
           <button
