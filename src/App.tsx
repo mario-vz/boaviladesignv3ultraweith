@@ -138,7 +138,7 @@ function App() {
         <section
           className="h-[90vh] w-full bg-cover bg-center bg-no-repeat relative"
           style={{
-            backgroundImage: "url('https://i.imgur.com/dU9xq3A.jpeg')",
+            backgroundImage: "url('https://i.imgur.com/EO2Pi0t.jpeg')",
           }}
         >
           {/* capa oscura para mejorar contraste */}
