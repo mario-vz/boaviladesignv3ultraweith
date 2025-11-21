@@ -230,7 +230,7 @@ function App() {
               <div>
                 <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
-                    https://tse2.mm.bing.net/th/id/OIP.JlsV92z91UX6vRjVmnvRtgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3
+                    Fotografía Artesana
                   </div>
                 </div>
               </div>
