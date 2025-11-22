@@ -232,47 +232,63 @@ function App() {
           </div>
         </section>
 
-        <section id="sobre" className="py-32 px-6 bg-gray-50">
-          <div className="max-w-5xl mx-auto">
+        <section 
+          id="sobre"
+          className="py-32 px-6 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: "url('https://i.imgur.com/EO2Pi0t.jpeg')", // tu imagen
+          }}
+        >
+          {/* Capa oscura para que el texto siga siendo legible */}
+          <div className="absolute inset-0 bg-black/30"></div>
+
+          <div className="relative z-10 max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+              {/* Imagen actual dentro de la caja cuadrada */}
               <div>
-                <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
-                    <img
-                      src="https://i.imgur.com/9iBaAZi.png"
-                      alt="Fotografía artesana"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+                <div className="aspect-square bg-white/20 rounded-lg overflow-hidden backdrop-blur-sm">
+                  <img
+                    src="https://i.imgur.com/9iBaAZi.png"
+                    alt="Fotografía artesana"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
-              <div className="space-y-8">
+              {/* Texto */}
+              <div className="space-y-8 text-white">
                 <div>
-                  <h2 className="text-5xl font-light text-gray-900 mb-6 tracking-tight">
+                  <h2 className="text-5xl font-light mb-6 tracking-tight">
                     Sobre Boa Vila Design
                   </h2>
                 </div>
 
-                <div className="space-y-6 text-gray-700 font-light leading-relaxed">
+                <div className="space-y-6 font-light leading-relaxed">
                   <p>
-                    Boa Vila Design nace del amor por la artesanía gallega y la pasión por crear piezas únicas. Cada accesorio es elaborado a mano con materiales cuidadosamente seleccionados.
+                    Boa Vila Design nace del amor por la artesanía gallega y la pasión
+                    por crear piezas únicas. Cada accesorio es elaborado a mano con
+                    materiales cuidadosamente seleccionados.
                   </p>
 
                   <p>
-                    Creemos que la verdadera belleza reside en los detalles. Por eso, dedicamos tiempo y atención a cada creación, asegurando que cumple con nuestros estándares de calidad y diseño.
+                    Creemos que la verdadera belleza reside en los detalles. Por eso,
+                    dedicamos tiempo y atención a cada creación, asegurando que cumple
+                    con nuestros estándares de calidad y diseño.
                   </p>
 
                   <p>
-                    Nuestro objetivo es ofrecer accesorios que no solo sean hermosos, sino que también cuenten una historia de tradición, técnica y dedicación.
+                    Nuestro objetivo es ofrecer accesorios que no solo sean hermosos,
+                    sino que también cuenten una historia de tradición, técnica y
+                    dedicación.
                   </p>
                 </div>
 
                 <div className="pt-4 space-y-3">
-                  <h3 className="text-sm font-light text-gray-900 tracking-wide uppercase">
+                  <h3 className="text-sm font-light tracking-wide uppercase">
                     Valores
                   </h3>
-                  <ul className="space-y-2 text-sm text-gray-600 font-light">
+                  <ul className="space-y-2 text-sm font-light">
                     <li>Artesanía de calidad</li>
                     <li>Diseño contemporáneo</li>
                     <li>Materiales seleccionados</li>
