@@ -154,7 +154,7 @@ function App() {
           {/* contenido centrado */}
           <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
             <h1 className="text-6xl md:text-7xl font-light text-white leading-tight tracking-tight">
-              Artesanía Gallega
+              Artesanía Pontevedresa
             </h1>
 
             <p className="text-xl text-gray-200 font-light leading-relaxed max-w-3xl mt-6">
