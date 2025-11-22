@@ -138,7 +138,7 @@ function App() {
         <section
           className="h-[90vh] w-full bg-cover bg-center bg-no-repeat relative"
           style={{
-            backgroundImage: "url('https://i.imgur.com/dU9xq3A.jpeg')",
+            backgroundImage: "url('https://i.imgur.com/6GgAjvA.jpeg')",
           }}
         >
           {/* capa oscura para mejorar contraste */}
@@ -236,7 +236,7 @@ function App() {
           id="sobre"
           className="py-32 px-6 bg-cover bg-center bg-no-repeat relative"
           style={{
-            backgroundImage: "url('https://i.imgur.com/EO2Pi0t.jpeg')", // tu imagen
+            backgroundImage: "url('https://i.imgur.com/dU9xq3A.jpeg')", // tu imagen
           }}
         >
           {/* Capa oscura para que el texto siga siendo legible */}
