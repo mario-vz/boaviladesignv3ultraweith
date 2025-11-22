@@ -143,7 +143,7 @@ function App() {
 
       <main className="pt-20">
         <section
-          className="h-[90vh] w-full bg-cover bg-center bg-no-repeat relative"
+          className="h-screen w-full flex items-center justify-center px-6 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://i.imgur.com/6GgAjvA.jpeg')",
           }}
