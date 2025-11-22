@@ -78,7 +78,7 @@ function App() {
             <img
               src="https://i.imgur.com/7Qh79Av.png"
               alt="Logo Boa Vila Design"
-              className="h-8 w-auto"
+              className="h-14 w-auto"
             />
             <span className="text-xl font-light tracking-widest text-gray-900 uppercase">
               Boa Vila Design
