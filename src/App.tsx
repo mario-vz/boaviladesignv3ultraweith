@@ -104,7 +104,7 @@ function App() {
               onClick={() => scrollToSection('sobre')}
               className="text-gray-700 hover:text-gray-900 transition-colors font-light text-sm tracking-wide"
             >
-              Sobre
+              Sobre Boa Vila
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
