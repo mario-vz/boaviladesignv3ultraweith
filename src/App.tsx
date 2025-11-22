@@ -74,8 +74,15 @@ function App() {
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="text-xl font-light tracking-widest text-gray-900 uppercase">
-            Boa Vila Design
+          <div className="flex items-center gap-3">
+            <img
+              src="https://i.imgur.com/7Qh79Av.png"
+              alt="Logo Boa Vila Design"
+              className="h-8 w-auto"
+            />
+            <span className="text-xl font-light tracking-widest text-gray-900 uppercase">
+              Boa Vila Design
+            </span>
           </div>
 
           <button
